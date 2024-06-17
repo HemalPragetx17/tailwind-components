@@ -17,12 +17,12 @@
     <meta property="og:image" content="https://tailwindui.com/img/og-image.png" />
     <meta property="description" content="Beautiful UI components by the creators of Tailwind CSS." />
     <meta name="csrf-token" content="CONSTANT_TOKEN" />
-    <link rel="icon" href="/favicon.ico?v=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1" />
+    <link rel="icon" href="/tailwind-components/favicon.ico?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/tailwind-components/favicon-32x32.png?v=1" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/tailwind-components/favicon-16x16.png?v=1" />
 
-    <link rel="preload" href="/fonts/Inter-roman.var.woff2?v=3.18" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="preload" href="/tailwind-components/fonts/Inter-roman.var.woff2?v=3.18" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/tailwind-components/css/app.css" />
     <title>Tailwind UI - Official Tailwind CSS Components</title>
       </head>
   <body class="font-sans antialiased text-gray-600 min-h-full flex flex-col ">
@@ -32,7 +32,7 @@
 <header class="flex-none relative z-50 text-sm leading-6 font-medium  bg-white">
   <nav aria-label="Global" class="max-w-container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center  border-b border-gray-100 py-5">
-      <a href="/components" class="flex-none text-gray-900">
+      <a href="/tailwind-components/components" class="flex-none text-gray-900">
         <span class="sr-only">Tailwind UI</span>
         <svg aria-hidden="true" viewBox="0 0 160 24" fill="none" class="w-auto h-6">
           <path d="M18.724 1.714c-4.538 0-7.376 2.286-8.51 6.857 1.702-2.285 3.687-3.143 5.957-2.57 1.296.325 2.22 1.271 3.245 2.318 1.668 1.706 3.6 3.681 7.819 3.681 4.539 0 7.376-2.286 8.51-6.857-1.701 2.286-3.687 3.143-5.957 2.571-1.294-.325-2.22-1.272-3.245-2.32-1.668-1.705-3.6-3.68-7.819-3.68zM10.214 12c-4.539 0-7.376 2.286-8.51 6.857 1.701-2.286 3.687-3.143 5.957-2.571 1.294.325 2.22 1.272 3.245 2.32 1.668 1.705 3.6 3.68 7.818 3.68 4.54 0 7.377-2.286 8.511-6.857-1.702 2.286-3.688 3.143-5.957 2.571-1.295-.326-2.22-1.272-3.245-2.32-1.669-1.705-3.6-3.68-7.82-3.68z" fill="#06B6D4"/>
@@ -52,8 +52,8 @@
           </a>
         </p>
                         <div class="ml-auto flex items-center">
-        <a href="/components" class="hidden sm:block hover:text-gray-900">Components</a>
-        <a href="/documentation" class="hidden sm:block ml-6 mr-2 hover:text-gray-900">Documentation</a>
+        <a href="/tailwind-components/components" class="hidden sm:block hover:text-gray-900">Components</a>
+        <a href="/tailwind-components/documentation" class="hidden sm:block ml-6 mr-2 hover:text-gray-900">Documentation</a>
 
         <button type="button" x-data @click="$dispatch('open-command-palette')" class="-my-1 mr-3 sm:mx-2.5 w-8 h-8 rounded-lg flex items-center justify-center">
           <span class="sr-only">Search components</span>
@@ -83,7 +83,7 @@
               <span class="font-semibold">Licensed User</span>
             </p>
             <div class="py-1.5 px-3.5">
-              <a href="/components" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/components" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <rect x="2.75" y="2.75" width="5.5" height="5.5" rx="1" />
                   <rect x="2.75" y="11.75" width="5.5" height="5.5" rx="1" />
@@ -92,14 +92,14 @@
                 </svg>
                 Components
               </a>
-              <a href="/documentation" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/documentation" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <path d="M5.75 17.25h8.5a2 2 0 002-2V7L12 2.75H5.75a2 2 0 00-2 2v10.5a2 2 0 002 2z" />
                   <path d="M11.75 3v4.25H16M6.75 10.75h6.5M6.75 13.75h6.5" />
                 </svg>
                 Documentation
               </a>
-              <a href="/changelog" class="group flex items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/changelog" class="group flex items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <rect x="7.75" y="2.75" width="4.5" height="4.5" rx="2.25" />
                   <rect x="7.75" y="12.75" width="4.5" height="4.5" rx="2.25" />
@@ -107,7 +107,7 @@
                 </svg>
                 Changelog
               </a>
-              <a href="/support" class="group flex items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/support" class="group flex items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <rect x="2.75" y="2.75" width="14.5" height="14.5" rx="7.25" />
                   <rect x="6.75" y="6.75" width="6.5" height="6.5" rx="3.25" />
@@ -115,7 +115,7 @@
                 </svg>
                 Support
               </a>
-              <a href="/license" class="group flex items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/license" class="group flex items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <circle cx="10" cy="8" r="5.25" />
                   <path d="M13 12.5l1.25 4.75-4.25-1.5-4.25 1.5L7 12.5" />
@@ -124,7 +124,7 @@
               </a>
             </div>
                           <div class="py-1.5 px-3.5">
-                                <a href="/documentation#figma-assets" class="group flex items-center py-1.5 hover:text-teal-600">
+                                <a href="/tailwind-components/documentation#figma-assets" class="group flex items-center py-1.5 hover:text-teal-600">
                   <svg aria-hidden="true" width="20" height="20" fill="none" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                     <path d="M6 13.25a3.25 3.25 0 01-1.1-6.31c.473-.17.865-.562.996-1.047a4.252 4.252 0 018.209 0c.13.485.522.878.995 1.048A3.251 3.251 0 0114 13.25M10 11.75v5.5M7.75 14.75l2.25 2.5 2.25-2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -133,7 +133,7 @@
                                               </div>
             
                           <div class="py-1.5 px-3.5">
-                <a href="/upgrade-team" class="group flex items-center py-1.5 hover:text-teal-600">
+                <a href="/tailwind-components/upgrade-team" class="group flex items-center py-1.5 hover:text-teal-600">
                   <svg aria-hidden="true" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                     <rect x="4.75" y="6.75" width="4.5" height="4.5" rx="2.25" stroke="#9CA3AF" stroke-width="1.5"/>
                     <rect x="10.75" y="2.75" width="4.5" height="4.5" rx="2.25" stroke="#9CA3AF" stroke-width="1.5"/>
@@ -143,7 +143,7 @@
                 </a>
               </div>
                         <div class="py-1.5 px-3.5">
-              <a href="/account-settings" class="group flex items-center py-1.5 hover:text-teal-600">
+              <a href="/tailwind-components/account-settings" class="group flex items-center py-1.5 hover:text-teal-600">
                 <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
                   <rect x="7.75" y="5.75" width="4.5" height="4.5" rx="2.25" />
                   <rect x="2.75" y="2.75" width="14.5" height="14.5" rx="7.25" />
@@ -192,7 +192,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/heroes" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/heroes.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/heroes.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -205,7 +205,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/feature-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/feature-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/feature-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -218,7 +218,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/cta-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/cta-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/cta-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -231,7 +231,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/pricing" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/pricing.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/pricing.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -244,7 +244,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/header" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/header.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/header.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -257,7 +257,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/faq-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/faq-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/faq-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -270,7 +270,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/newsletter-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/newsletter-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/newsletter-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -283,7 +283,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/stats-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/stats-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/stats-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -296,7 +296,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/testimonials" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/testimonials.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/testimonials.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -309,7 +309,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/blog-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/blog-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/blog-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -322,7 +322,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/contact-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/contact-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/contact-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -335,7 +335,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/team-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/team-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/team-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -348,7 +348,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/content-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/content-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/content-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -361,7 +361,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/footers" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/footers.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/footers.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -374,7 +374,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/sections/logo-clouds" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/logo-clouds.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/logo-clouds.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -392,7 +392,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/elements/headers" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/headers.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/headers.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -405,7 +405,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/elements/banners" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/banners.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/banners.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -418,7 +418,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/elements/flyout-menus" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/flyout-menus.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/flyout-menus.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -436,7 +436,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/feedback/404-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/404-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/404-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -454,7 +454,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/page-examples/landing-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/landing-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/landing-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -467,7 +467,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/page-examples/pricing-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/pricing-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/pricing-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -480,7 +480,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/marketing/page-examples/contact-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/marketing/contact-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/marketing/contact-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -504,7 +504,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/application-shells/stacked" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -517,7 +517,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/application-shells/sidebar" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/sidebar.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/sidebar.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -530,7 +530,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/application-shells/multi-column" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/multi-column.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/multi-column.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -548,7 +548,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/headings/page-headings" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/page-headings.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/page-headings.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -561,7 +561,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/headings/card-headings" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/card-headings.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/card-headings.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -574,7 +574,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/headings/section-headings" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/section-headings.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/section-headings.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -592,7 +592,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/data-display/description-lists" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/description-lists.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/description-lists.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -605,7 +605,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/data-display/stats" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/stats.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/stats.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -618,7 +618,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/data-display/calendars" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/calendars.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/calendars.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -636,7 +636,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/lists/tables" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/tables.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/tables.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -650,7 +650,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/lists/stacked-lists" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/stacked-lists.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/stacked-lists.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -663,7 +663,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/lists/grid-lists" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/grid-lists.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/grid-lists.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -676,7 +676,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/lists/feeds" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/feeds.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/feeds.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -694,7 +694,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/form-layouts" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/form-layouts.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/form-layouts.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -707,7 +707,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/input-groups" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/input-groups.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/input-groups.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -720,7 +720,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/select-menus" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/select-menus.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/select-menus.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -733,7 +733,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/sign-in-forms" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/sign-in-forms.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/sign-in-forms.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -746,7 +746,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/textareas" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/textareas.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/textareas.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -759,7 +759,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/radio-groups" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/radio-groups.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/radio-groups.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -772,7 +772,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/checkboxes" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/checkboxes.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/checkboxes.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -785,7 +785,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/toggles" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/toggles.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/toggles.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -798,7 +798,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/action-panels" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/action-panels.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/action-panels.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -811,7 +811,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/forms/comboboxes" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/comboboxes.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/comboboxes.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -829,7 +829,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/feedback/alerts" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/alerts.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/alerts.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -842,7 +842,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/feedback/empty-states" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/empty-states.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/empty-states.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -860,7 +860,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/navbars" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/navbars.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/navbars.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -873,7 +873,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/pagination" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/pagination.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/pagination.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -886,7 +886,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/tabs" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/tabs.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/tabs.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -899,7 +899,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/vertical-navigation" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/vertical-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/vertical-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -912,7 +912,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/sidebar-navigation" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/sidebar-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/sidebar-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -925,7 +925,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/breadcrumbs" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/breadcrumbs.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/breadcrumbs.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -938,7 +938,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/steps" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/steps.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/steps.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -951,7 +951,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/navigation/command-palettes" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/command-palettes.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/command-palettes.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -969,7 +969,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/overlays/modals" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/modals.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/modals.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -982,7 +982,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/overlays/slide-overs" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/slide-overs.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/slide-overs.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -995,7 +995,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/overlays/notifications" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/notifications.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/notifications.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1013,7 +1013,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/elements/avatars" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/avatars.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/avatars.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1026,7 +1026,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/elements/dropdowns" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/dropdowns.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/dropdowns.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1039,7 +1039,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/elements/badges" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/badges.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/badges.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1052,7 +1052,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/elements/buttons" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/buttons.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/buttons.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1065,7 +1065,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/elements/button-groups" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/button-groups.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/button-groups.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1083,7 +1083,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/layout/containers" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/containers.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/containers.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1096,7 +1096,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/layout/panels" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/panels.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/panels.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1109,7 +1109,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/layout/list-containers" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/list-containers.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/list-containers.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1122,7 +1122,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/layout/media-objects" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/media-objects.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/media-objects.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1135,7 +1135,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/layout/dividers" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/dividers.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/dividers.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1153,7 +1153,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/page-examples/home-screens" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/home-screens.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/home-screens.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1166,7 +1166,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/page-examples/detail-screens" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/detail-screens.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/detail-screens.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1179,7 +1179,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/application-ui/page-examples/settings-screens" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/application-ui/settings-screens.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/application-ui/settings-screens.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1202,7 +1202,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/product-overviews" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/product-overviews.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/product-overviews.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1215,7 +1215,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/product-lists" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/product-lists.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/product-lists.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1228,7 +1228,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/category-previews" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/category-previews.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/category-previews.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1241,7 +1241,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/shopping-carts" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/shopping-carts.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/shopping-carts.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1254,7 +1254,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/category-filters" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/category-filters.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/category-filters.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1267,7 +1267,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/product-quickviews" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/product-quickviews.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/product-quickviews.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1280,7 +1280,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/product-features" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/product-features.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/product-features.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1293,7 +1293,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/store-navigation" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/store-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/store-navigation.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1306,7 +1306,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/promo-sections" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/promo-sections.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/promo-sections.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1319,7 +1319,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/checkout-forms" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/checkout-forms.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/checkout-forms.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1332,7 +1332,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/reviews" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/reviews.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/reviews.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1345,7 +1345,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/order-summaries" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/order-summaries.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/order-summaries.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1358,7 +1358,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/order-history" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/order-history.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/order-history.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1371,7 +1371,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommercehttps://hemalpragetx17.github.io/tailwind-components/components/incentives" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/incentives.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/incentives.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1389,7 +1389,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/storefront-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/storefront-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/storefront-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1402,7 +1402,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/product-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/product-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/product-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1415,7 +1415,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/category-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/category-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/category-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1428,7 +1428,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/shopping-cart-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/shopping-cart-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/shopping-cart-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1441,7 +1441,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/checkout-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/checkout-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/checkout-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1454,7 +1454,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/order-detail-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/order-detail-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/order-detail-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1467,7 +1467,7 @@
                           <a href="https://hemalpragetx17.github.io/tailwind-components/components/ecommerce/page-examples/order-history-pages" class="group relative bg-white rounded-lg shadow-sm overflow-hidden ring-1 ring-black ring-opacity-5">
   <div class="relative bg-gray-100 pt-[50%] overflow-hidden">
     <div class="absolute inset-0 w-full h-full rounded-t-lg overflow-hidden">
-      <img src="/img/category-thumbnails/ecommerce/order-history-pages.png" alt="" class="absolute inset-0 w-full h-full" />
+      <img src="/tailwind-components/img/category-thumbnails/ecommerce/order-history-pages.png" alt="" class="absolute inset-0 w-full h-full" />
     </div>
   </div>
   <div class="py-3 px-4">
@@ -1488,7 +1488,7 @@
   <footer class="w-full max-w-container mx-auto border-t py-10 text-center text-sm text-gray-500 sm:flex sm:items-center sm:justify-center">
     <p>&copy; 2022 Tailwind Labs Inc. All rights reserved.</p>
     <p class="mt-2 sm:mt-0 sm:ml-3 sm:border-l sm:border-gray-200 sm:pl-3">
-      <a class="hover:text-teal-600" href="/privacy-policy">Privacy Policy</a>
+      <a class="hover:text-teal-600" href="/tailwind-components/privacy-policy">Privacy Policy</a>
     </p>
   </footer>
 
